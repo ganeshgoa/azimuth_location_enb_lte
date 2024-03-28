@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>4_azimuth.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_0_90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_0_90</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_0_90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_180_270">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_180_270</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_180_270</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_270_360">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_270_360</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_270_360</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_90_180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_90_180</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_90_180</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>2.7</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/empty1.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>3.19091</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/empty1.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_0_90">
+		<IconStyle>
+			<scale>3.19091</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/0_90.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_180_270">
+		<IconStyle>
+			<scale>3.19091</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/180_270.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_270_360">
+		<IconStyle>
+			<scale>3.19091</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/270_360.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_90_180">
+		<IconStyle>
+			<scale>3.19091</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/90_180.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_0_90">
+		<IconStyle>
+			<scale>2.7</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/0_90.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_180_270">
+		<IconStyle>
+			<scale>2.7</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/180_270.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_270_360">
+		<IconStyle>
+			<scale>2.7</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/270_360.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_90_180">
+		<IconStyle>
+			<scale>2.7</scale>
+			<Icon>
+				<href>C:/Users/garbu/Downloads/90_180.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>test</name>
+		<open>1</open>
