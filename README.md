@@ -1,5 +1,5 @@
-# Draw LTE ENB's location and azimuth bases on longitude, latitude, azimuth(optinal) in Google Earth Pro. 
-Full guide check in read_me.txt
+# Draw LTE ENB's location and azimuth based on longitude, latitude, azimuth(optinal) in Google Earth Pro. 
+Full guide you can find in read_me.txt
 This program can help to prepare a KML file with the location and azimuth of lte base station using Longitude and Latitude and Azimuth(optional).
 You can use this KML file to check location and azimuth of eNB base station. 
 There are some important dependencies. 
