@@ -1,4 +1,18 @@
-# Draw LTE ENB's location and azimuth based on longitude, latitude, azimuth(optinal) in Google Earth Pro. 
+# Данная программа позволяет нарисовать месторасположения базовых станций LTE на карте Google Earth Pro на основе широты и долготы с учётом азимутов секторов.
+Азимуты представлены с точностью 90 градусов. Всего было подготовлено 4 картинки: 
+1) 0-90 градусов
+2) 90-180 градусов
+3) 180-270 градусов
+4) 270-360 градусов
+С помощью данных картинок на карте будут отмечены азимуты секторов базовой станции. Необходимо ознакомиться с эксельным файлом, где указаны столбцы. Именно по названию столбцов программа будет находить нужные столбцы и подгружать оттуда данные.
+Самые важные столбцы:
+['Cell Name', 'Longitude', 'Latitude', 'Azimuth']
+Если вы будете запускать данную программы на основе своей таблицы, то необходимо, чтобы названия столбцов назывались точно также. В столбце Cell Name - указывается название соты, в столбце Longitude - долгота, Latitude - широта, в Azimuth - азимут сектора.
+После того, как программа обработает данные, она предоставит файл в формате .kml. При открытии которого на карте гугл будут отображаться базовые станции с указанием азимутов секторов с точностью до 90 градусов.
+Точность азимутов может быть увеличина, если сделать разбивку не через каждые 90 градусов, а например, через каждые 45. 
+
+
+Draw LTE ENB's location and azimuth based on longitude, latitude, azimuth(optinal) in Google Earth Pro. 
 Full guide you can find in read_me.txt
 This program can help to prepare a KML file with the location and azimuth of lte base station using Longitude and Latitude and Azimuth(optional).
 You can use this KML file to check location and azimuth of eNB base station. 
